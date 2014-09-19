@@ -1,0 +1,17 @@
+[push]
+	default = simple
+[core]
+	excludesfile = /home/kain88/.gitignore_global
+[user]
+	name = Max Linke
+	email = max_linke@gmx.de
+[alias]
+	slog = log --oneline --topo-order --graph
+    wdiff = diff --word-diff
+    fmerge = merge --ff-only
+[merge]
+	tool = kdiff3
+[color]
+    diff = auto
+    status = auto
+    branch = auto
