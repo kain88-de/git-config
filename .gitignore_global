@@ -3,4 +3,10 @@
 *.ropeproject
 *.pyc
 spell
+\#*#
+*~
+_*_.tex
+.ipynb_checkpoints
 TAGS
+.projectile
+.idea
