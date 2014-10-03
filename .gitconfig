@@ -1,7 +1,8 @@
 [push]
     default = simple
 [core]
-    excludesfile = /home/kain88/.gitignore_global
+    excludesfile = $HOME/.gitignore_global
+    editor = vim
 [user]
     name = Max Linke
     email = max_linke@gmx.de
@@ -15,3 +16,6 @@
     diff = auto
     status = auto
     branch = auto
+    ui = true
+[help]
+    autocorrect = 1
