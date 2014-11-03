@@ -11,3 +11,4 @@ _*_.tex
 TAGS
 .projectile
 .idea
+__pycache__

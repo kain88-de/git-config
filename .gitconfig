@@ -1,7 +1,7 @@
 [push]
     default = simple
 [core]
-    excludesfile = $HOME/.gitignore_global
+    excludesfile = ~/.gitignore_global
     editor = vim
 [user]
     name = Max Linke
