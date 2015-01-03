@@ -12,3 +12,4 @@ TAGS
 .projectile
 .idea
 __pycache__
+tox.ini
