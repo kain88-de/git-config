@@ -10,6 +10,7 @@
     slog = log --oneline --topo-order --graph
     wdiff = diff --word-diff
     fmerge = merge --ff-only
+    s = status -sb
 [merge]
     tool = kdiff3
 [color]
