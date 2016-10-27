@@ -11,7 +11,8 @@
     wdiff = diff --word-diff
     fmerge = merge --ff-only
     s = status -sb
-	undo = "!f() { \\\ngit reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; \\\n}; f"
+    undo = "!f() { \\\ngit reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; \\\n}; f"
+    savepull = "!git remote update; git rebase"
 [merge]
     tool = kdiff3
 [color]
